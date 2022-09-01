@@ -1,0 +1,75 @@
+$prumary-color: #2f80ed;
+$secondary-color: #333333;
+
+body {
+    background-color: #f1f1f1;
+    margin: auto;
+    margin-left: 25%;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color:$secondary-color;
+    font-size: 1em;
+}
+
+h1 {
+    color:$prumary-color;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color:$secondary-color;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3 {
+    color:$prumary-color;
+    font-size: 30px;
+    margin-bottom: 0.25em;
+}
+a {
+    color: $prumary-color;
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.contact {
+    display: flex;
+    font-size: 20px;
+    &__type {
+        min-width: 100px;
+    }
+}
+
+.photo {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    margin-top: 5%;
+    
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+    margin-top: 5%;
+}
+.description {
+    margin-top: 2%;
+    font-size: 21px;
+}
+
+.course {
+    margin-top: 5%;
+}
